@@ -1,0 +1,20 @@
+<!--pages/board/board.wxml-->
+ <view class="container">
+  <view wx:for="{{array}}" style="text-align:center">
+    <view bindtap="getBroad" data-id="{{item._id}}" data-cid="{{item.cid}}">
+      <view>{{item.name}} </view>
+    </view>
+  </view> 
+  <view wx:for="{{canvas_id}}">
+  <view wx:if="{{item.type == 'Number'}}">
+    <view>
+
+    
+
+    </view>   
+  </view>
+  <view wx:else>
+    <canvas canvas-id="{{item.id}}" class="canvas"></canvas> 
+  </view>
+  </view>
+</view>

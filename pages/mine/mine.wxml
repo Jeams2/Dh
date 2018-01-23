@@ -1,0 +1,27 @@
+ <view class="dhm-container">
+  <view class="dhm-user">
+    <view class="dhm-user-avatar">
+        <image class="dhm-user-avatar-img" mode="scaleToFill" src="/image/user.png"></image>
+        <view>{{username}}</view>
+    </view>
+    <view class="dhm-user-text">
+      <view class="dhm-user-text-left">
+          <text style="font-size:14px;">邮箱</text>
+      </view>
+      <view class="dhm-user-text-right">
+        <text style="font-size:14px;">{{email}}</text>
+      </view>
+    </view>
+    <view class="dhm-user-text">
+        <view class="dhm-user-text-left">
+          <text style="font-size:14px;">手机号</text>
+        </view>
+        <view class="dhm-user-text-right">
+          <text style="font-size:14px;">{{mobile}}</text>
+        </view>
+    </view>
+    <view style='padding-left:8rem;line-height:9rem'>
+      <button type="warn" size="mini" bindtap="logout">退出登录 </button>
+    </view>
+  </view>
+</view> 

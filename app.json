@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/login/login",
+    "pages/board/board"
+  ],
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#268dcd",
+    "borderStyle": "white",
+    "backgroundColor": "#fafafa",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/ing.png",
+        "selectedIconPath": "image/ing-active.png",
+        "text": "看板"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "image/coming.png",
+        "selectedIconPath": "image/coming-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#399F45",
+    "navigationBarTitleText": "datahunter",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "debug": true
+}

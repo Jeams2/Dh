@@ -1,0 +1,14 @@
+ <view class="section">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+     团队： {{array[index]}}
+    </view>
+  </picker>
+</view>
+
+<view wx:for="{{boardgroup}}" class="dhm-board-group-list">
+<view bindtap="toBoard" data-id="{{item._id}}" data-cid="{{item.cid}}" style="height: 100%;">
+   <view>{{item.name}} </view><view> {{item.len}}个看板 </view>
+   </view>
+</view>  
+<!-- <web-view src="https://m.datahunter.cn/login"></web-view> -->

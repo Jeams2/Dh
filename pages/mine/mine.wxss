@@ -1,0 +1,83 @@
+.dhm-user-avatar {
+    height: 7.84267rem;
+    width: 100%;
+    background: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 0.26667rem;
+}
+.dhm-user-text{
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    background-color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.dhm-user-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 0.26667rem;
+    font-size: 0.79333rem;
+    color: #FF5050;
+}
+
+.dhm-user-avatar-img {
+    height: 3.472rem;
+    width: 3.472rem;
+    border-radius: 50%;
+    border: 1px solid #cccccc;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.dhm-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: #f5f5f5;
+}
+
+.dhm-user {
+    height: 100%;
+    background: #f5f5f5;
+}
+
+.dhm-user-text-left, .dhm-user .dhm-user-btn-left {
+    padding-left: 0.4rem;
+    height: 100%;
+}
+
+.dhm-user-text-right, .dhm-user .dhm-user-btn-right {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 0.32rem;
+    text-align: right;
+    color: #999999;
+}
